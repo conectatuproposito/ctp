@@ -11,6 +11,12 @@ import { Link, useLocation } from "react-router-dom";
 
 import logoSvg from "assets/images/logo.svg";
 
+import mensajeImage from "assets/images/mensaje.png";
+import whatImage from "assets/images/what.png";
+import locationImage from "assets/images/location.png";
+
+import whatsappImage from "assets/images/whatsapp.png";
+
 const Footer = () => {
   const [reloadAnimation, setReloadAnimation] = useState(true);
   const { pathname } = useLocation();
@@ -120,7 +126,7 @@ const Footer = () => {
             <div className="flex flex-col gap-1">
               <div className="flex gap-2 items-center">
                 <img
-                  src="src/assets/images/mensaje.png"
+                  src={mensajeImage}
                   alt="Mensaje"
                   className="pointer w-5 h-5"
                   width={100}
@@ -131,7 +137,7 @@ const Footer = () => {
 
               <div className="flex gap-2 items-center">
                 <img
-                  src="src/assets/images/what.png"
+                  src={whatImage}
                   alt="Whastapp Logo"
                   className="pointer w-5 h-5"
                   width={100}
@@ -142,7 +148,7 @@ const Footer = () => {
 
               <div className="flex gap-2 items-center">
                 <img
-                  src="src/assets/images/location.png"
+                  src={locationImage}
                   alt="Whastapp Logo"
                   className="pointer w-[1.2rem] h-[1.4rem]"
                   width={100}
@@ -236,7 +242,7 @@ const Footer = () => {
             to="https://wa.me/573107675203?text=Estoy%20interesado%20en%20su%20contacto"
           >
             <img
-              src="src/assets/images/whatsapp.png"
+              src={whatsappImage}
               alt="Whastapp Logo"
               className="pointer m-auto"
               width={300}
