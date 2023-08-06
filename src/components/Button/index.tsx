@@ -5,6 +5,8 @@ interface IButton {
   target?: string;
 }
 
+import ArrowRight from "assets/images/arrow-right.svg";
+
 const Button = ({ children, className, ...args }: IButton) => {
   return (
     <a
@@ -20,7 +22,7 @@ const Button = ({ children, className, ...args }: IButton) => {
       {children}
 
       <img
-        src="src/assets/images/arrow-right.svg"
+        src={ArrowRight}
         alt="Arrow Right"
         className="pt-[2px] ml-2 w-4 h-4"
       />

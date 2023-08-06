@@ -3,6 +3,8 @@ import AnimationMain from "components/AnimationDiv";
 import IsotipoImage from "assets/images/isotipo-ctp.png";
 import PersonajeImage from "assets/images/personaje.png";
 
+import NosotrosImage from "assets/images/nosotros.png";
+
 export default function Nosotros() {
   return (
     <AnimationMain className="bg-[#F0F2FF]">
@@ -44,7 +46,7 @@ export default function Nosotros() {
             <div
               className="w-full md:h-full h-96"
               style={{
-                backgroundImage: `linear-gradient(270deg, rgba(255,255,255,0) 50%, rgba(240,242,255,1) 100%), url(src/assets/images/nosotros.png)`,
+                backgroundImage: `linear-gradient(270deg, rgba(255,255,255,0) 50%, rgba(240,242,255,1) 100%), url(${NosotrosImage})`,
                 backgroundSize: "cover",
               }}
             />

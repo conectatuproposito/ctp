@@ -1,6 +1,14 @@
 import AnimationMain from "components/AnimationDiv";
 import Button from "components/Button";
 
+import IsotipoImage from "assets/images/isotipo-ctp.png";
+import StarImage from "assets/images/star.svg";
+
+import Service1Image from "assets/images/service-1.png";
+import Service2Image from "assets/images/service-2.png";
+import Service3Image from "assets/images/service-3.png";
+import Service4Image from "assets/images/service-4.png";
+
 export default function Contactate() {
   const handleOpenImage = () => {
     window.open("/certificado.jpeg", "_blank");
@@ -17,7 +25,7 @@ export default function Contactate() {
       <Article
         id="modelo"
         title="Modelo de desempeño"
-        image="service-1"
+        image={Service1Image}
         direction="left"
       >
         <div className="">
@@ -60,7 +68,7 @@ export default function Contactate() {
       <Article
         id="familia"
         title="Familia inteligentemente saludable"
-        image="service-2"
+        image={Service2Image}
         direction="right"
       >
         <div className="mb-4">
@@ -94,7 +102,7 @@ export default function Contactate() {
       <Article
         id="psicoterapia"
         title="Psicoterapia"
-        image="service-3"
+        image={Service3Image}
         direction="left"
       >
         <div className="mb-4">
@@ -131,7 +139,7 @@ export default function Contactate() {
       <Article
         id="ejecutivos"
         title="Ejecutivos"
-        image="service-4"
+        image={Service4Image}
         direction="right"
       >
         <div className="mb-4">
@@ -159,7 +167,7 @@ export default function Contactate() {
       <div>
         <div>
           <img
-            src="src/assets/images//isotipo-ctp.png"
+            src={IsotipoImage}
             alt="isotipo"
             width={96}
             height={96}
@@ -280,7 +288,7 @@ const Article = ({
           style={{
             backgroundImage: `linear-gradient(${
               direction === "right" ? "90deg" : "270deg"
-            }, rgba(255,255,255,0) 50%, rgba(240,242,255,1) 99%), url(src/assets/images/${image}.png)`,
+            }, rgba(255,255,255,0) 50%, rgba(240,242,255,1) 99%), url(${image})`,
             backgroundSize: "cover",
             backgroundPosition: direction === "right" ? "left" : "right",
           }}
@@ -315,7 +323,7 @@ const Card = ({
           {[...Array(5)].map((_, i) => (
             <img
               key={i}
-              src="src/assets/images/star.svg"
+              src={StarImage}
               alt="star"
               width={20}
               height={20}

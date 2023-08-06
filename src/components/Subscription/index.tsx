@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { sendSubscripcion } from "./email";
 
+import ArrowRight from "assets/images/arrow-right.svg";
+
 export type FormData = {
   email: string;
 };
@@ -61,7 +63,7 @@ const Subscription = () => {
         >
           <img
             className="pt-[1px] ml-2 w-3 h-3"
-            src="src/assets/images/arrow-right.svg"
+            src={ArrowRight}
             alt="Arrow Right"
           />
         </button>
