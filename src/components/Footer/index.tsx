@@ -226,13 +226,11 @@ const Footer = () => {
 
       <div className="fixed bottom-5 right-2 w-16">
         <motion.div
-          initial={reloadAnimation ? "hidden" : "visible"}
-          animate={reloadAnimation ? "visible" : "hidden"}
-          variants={{
-            hidden: {
+          {...{
+            initial: {
               opacity: 0,
             },
-            visible: {
+            animate: {
               opacity: 1,
             },
           }}
