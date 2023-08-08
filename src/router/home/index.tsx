@@ -64,6 +64,7 @@ export default function Home() {
             alt="Home 1"
             className="absolute pointer-events-none
               w-full 
+              left-[10%]
               md:scale-[1.1] md:-top-[25px] md:left-[18px]
               lg:scale-[1.25] lg:-top-[16px] lg:left-[8px]
               xl:scale-[1.4] xl:-top-[4%] xl:left-[2%]
