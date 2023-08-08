@@ -47,7 +47,7 @@ const Footer = () => {
         }}
         className="xl:max-w-screen-xl mx-auto"
       >
-        <div className="flex flex-col md:flex-row justify-between gap-6 pt-24 px-4">
+        <div className="flex flex-col md:flex-row justify-between gap-6 pt-16 lg:pt-24 px-8">
           <div className="text-center md:text-left">
             <div className="text-xl font-bold">
               <img
@@ -123,7 +123,7 @@ const Footer = () => {
 
           <div className=" md:text-left">
             <div className="text-md text-purple-700 uppercase">Contacto</div>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 w-max">
               <div className="flex gap-2 items-center">
                 <img
                   src={mensajeImage}
@@ -160,7 +160,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center pt-8 pb-16 px-4 ">
+        <div className="flex flex-col md:flex-row justify-between items-center pt-4 md:pt-8 pb-9 md:pb-16 px-4 lg:px-8 ">
           <div></div>
           <div></div>
 
