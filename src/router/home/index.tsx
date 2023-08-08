@@ -48,7 +48,7 @@ export default function Home() {
             Elevar el ancla, una opción que siempre <br />
             tendrás disponible en tu vida.
           </div>
-          <Button href="/contacto" className="sm:w-[430px]">
+          <Button href="/conectate" className="sm:w-[430px]">
             Conecta tu propósito
           </Button>
         </div>
@@ -146,7 +146,7 @@ export default function Home() {
           <img src={CompositionImage} alt="composition" className="w-full" />
         </div>
         <div>
-          <Button href="/contacto" className="m-auto sm:w-[430px]">
+          <Button href="/conectate" className="m-auto sm:w-[430px]">
             Conecta tu propósito
           </Button>
         </div>
