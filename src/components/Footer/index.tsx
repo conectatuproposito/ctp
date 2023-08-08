@@ -219,7 +219,9 @@ const Footer = () => {
             opacity: 1,
           },
         }}
-        className="flex items-center justify-center h-20 w-full  bg-gradient-to-r from-blue-200 via-blue-400 to-purple-700"
+        className="flex items-center justify-center h-20 w-full  bg-gradient-to-r from-blue-200 via-blue-400 to-purple-700
+          p-2
+        "
       >
         ©2023 Conecta tu propósito. All rights reserved
       </motion.div>
