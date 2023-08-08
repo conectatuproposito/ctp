@@ -155,6 +155,7 @@ const OtroMenu = () => (
     <div className="h-2 bg-pink-300 rounded-t-xl " />
     <div className="flex flex-col gap-4 bg-[#D4EBF170] p-3">
       <HashLink
+        smooth
         className="hover:text-pink-300 cursor-pointer"
         to="/conectate#modelo"
       >
@@ -162,6 +163,7 @@ const OtroMenu = () => (
       </HashLink>
 
       <HashLink
+        smooth
         className="hover:text-pink-300 cursor-pointer"
         to="/conectate#familia"
       >
@@ -169,6 +171,7 @@ const OtroMenu = () => (
       </HashLink>
 
       <HashLink
+        smooth
         className="hover:text-pink-300 cursor-pointer"
         to="/conectate#ejecutivos"
       >
@@ -176,6 +179,7 @@ const OtroMenu = () => (
       </HashLink>
 
       <HashLink
+        smooth
         className="hover:text-pink-300 cursor-pointer"
         to="/conectate#psicoterapia"
       >

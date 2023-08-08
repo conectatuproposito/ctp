@@ -163,7 +163,7 @@ export default function Home() {
             </ul>
           </Card>
 
-          <Card src={Card2Image} alt="conectate" href="/conectate">
+          <Card src={Card2Image} alt="modelo" href="/conectate#modelo">
             <div className="text-xl font-bold mb-2">Modelo de desempeño</div>
 
             <ul className="list-disc pl-5">
@@ -204,7 +204,7 @@ const Card = ({
   href: string;
 }) => (
   <div className="group w-[365px] rounded-[30px] mx-auto bg-white overflow-hidden cursor-pointer">
-    <HashLink smooth to={href}>
+    <HashLink to={href}>
       <div className="h-40 overflow-hidden group-hover:overflow-visible">
         <img
           className=" w-full relative group-hover:scale-[1.9] top-0 group-hover:top-[30%] card-transition transition-all"
