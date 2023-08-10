@@ -46,6 +46,11 @@ const router = createBrowserRouter([
       },
     ],
   },
+
+  {
+    path: "*",
+    element: <Home />,
+  },
 ]);
 
 const Router = () => <RouterProvider router={router} />;
