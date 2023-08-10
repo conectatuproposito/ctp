@@ -204,11 +204,11 @@ const Card = ({
   children: React.ReactNode;
   href: string;
 }) => (
-  <div className="group w-[365px] rounded-[30px] mx-auto bg-white overflow-hidden cursor-pointer">
+  <div className="w-[365px] rounded-[30px] mx-auto bg-white overflow-hidden cursor-pointer">
     <HashLink to={href}>
-      <div className="h-40 overflow-hidden group-hover:overflow-visible">
+      <div className="h-40 overflow-hidden hover:overflow-visible">
         <img
-          className=" w-full relative group-hover:scale-[1.9] top-0 group-hover:top-[30%] card-transition transition-all"
+          className=" w-full relative hover:scale-[1.9] top-0 hover:top-[10%] card-transition transition-all"
           src={src}
           alt={alt}
         />
