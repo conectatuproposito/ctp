@@ -64,16 +64,28 @@ const Footer = () => {
             <div>
               <div className="text-md text-purple-700 uppercase">Website</div>
               <div className="flex flex-col">
-                <Link to="/" className=" hover:text-purple-700">
+                <Link to="/" reloadDocument className=" hover:text-purple-700">
                   Inicio
                 </Link>
-                <Link to="/nosotros" className=" hover:text-purple-700">
+                <Link
+                  to="/nosotros"
+                  reloadDocument
+                  className=" hover:text-purple-700"
+                >
                   Nosotros
                 </Link>
-                <Link to="/conectate" className=" hover:text-purple-700">
+                <Link
+                  to="/conectate"
+                  reloadDocument
+                  className=" hover:text-purple-700"
+                >
                   Conéctate
                 </Link>
-                <Link to="/contacto" className=" hover:text-purple-700">
+                <Link
+                  to="/contacto"
+                  reloadDocument
+                  className=" hover:text-purple-700"
+                >
                   Contacto
                 </Link>
               </div>
