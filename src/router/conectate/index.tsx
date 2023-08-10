@@ -8,10 +8,11 @@ import Service1Image from "assets/images/service-1.png";
 import Service2Image from "assets/images/service-2.png";
 import Service3Image from "assets/images/service-3.png";
 import Service4Image from "assets/images/service-4.png";
+import CertificadoImage from "assets/images/certificado.jpeg";
 
 export default function Contactate() {
   const handleOpenImage = () => {
-    window.open("/certificado.jpeg", "_blank");
+    window.open(CertificadoImage, "_blank");
   };
 
   return (
