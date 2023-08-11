@@ -104,6 +104,7 @@ const Footer = () => {
               <div className="text-md  text-purple-700 uppercase">Aliados</div>
 
               <Link
+                target="_blank"
                 to="https://www.iopenerinstitute.com/happiness-at-work-what"
                 className=" hover:text-purple-700"
               >
@@ -111,6 +112,7 @@ const Footer = () => {
               </Link>
 
               <Link
+                target="_blank"
                 to="https://www.instagram.com/nutriologopablosalda/"
                 className=" hover:text-purple-700"
               >
@@ -118,6 +120,7 @@ const Footer = () => {
               </Link>
 
               <Link
+                target="_blank"
                 to="https://www.instagram.com/peninsulacol/"
                 className=" hover:text-purple-700"
               >
@@ -125,6 +128,7 @@ const Footer = () => {
               </Link>
 
               <Link
+                target="_blank"
                 to="https://www.instagram.com/medicinadeportivamedellin/"
                 className=" hover:text-purple-700"
               >
