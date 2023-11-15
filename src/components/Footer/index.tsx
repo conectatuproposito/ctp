@@ -148,7 +148,7 @@ const Footer = () => {
                   width={100}
                   height={14}
                 />
-                info@conectatuproposito.com
+                alberto@conectatuproposito.com
               </div>
 
               <div className="flex gap-2 items-center">
